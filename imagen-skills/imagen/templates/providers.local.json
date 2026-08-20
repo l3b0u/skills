@@ -1,0 +1,19 @@
+{
+  "_comment": "Mapa local opcional para /imagen. Guardar caminhos 1Password, nunca valores de segredo.",
+  "kie_ai": {
+    "env": "KIE_API_KEY",
+    "op": "op://<vault>/Kie.AI/credencial",
+    "status": "pendente_confirmar_item_1password"
+  },
+  "google_ai": {
+    "env": "GOOGLE_API_KEY",
+    "op": "op://Miguel/Google Gemini API/credencial"
+  },
+  "openai": {
+    "env": "OPENAI_API_KEY",
+    "op": "op://Miguel/OpenAI API Key/credencial"
+  },
+  "chatgpt_codex": {
+    "mode": "codex login status"
+  }
+}
